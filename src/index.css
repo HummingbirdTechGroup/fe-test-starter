@@ -1,5 +1,23 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+li.crop {
+  margin-bottom: 30px;
+}
+li.crop select {
+  margin-left: 20px;
+}
+li.crop label {
+  margin-left: 10px;
+}
+h2 {
+  font-size: 15px;
+  margin: 0 0 10px 0;
 }
