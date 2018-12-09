@@ -1,0 +1,12 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ff-grid {
+    background: #F8F4E3;
+}
+.collection-header {
+    background: #EFE7DA;
+    color: #1f2d3d;
+}
