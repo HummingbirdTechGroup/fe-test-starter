@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Map, TileLayer, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import axios from "axios";
+
+const center = [51.505, -0.09];
 
 function App() {
   return (
@@ -16,9 +17,12 @@ function App() {
       </p>
       <Map
         style={{ width: "500px", height: "500px" }}
-        center={[51.505, -0.09]}
+        center={center}
         zoom={13}
       >
+        {/* {fields.map((field) => (
+          <GeoJSON data={field.boundary} />
+        ))} */}
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       </Map>
     </div>

@@ -49,7 +49,6 @@ Crop Yield Average * Hectares of Field / (Crop Risk Factor * Field Disease Susce
 When I go to the platform homepage </br>
 Then I should see all my fields visualised with their boundaries
 
-
 1. **Given I am a farmer**</br>
 And I am on my platform homepage
 When I add a crop to a field
@@ -76,7 +75,7 @@ A set of mock endpoints have been created to supply the information required to 
 
 The endpoints you will require can be reached with the following urls: 
 
-Farm: GET http://www.mocky.io/v2/5cc809b5300000a300055eac
+Farm: GET http://www.mocky.io/v2/5cc809b5300000a300055eac?mocky-delay=3000ms
 
-Crops: GET http://www.mocky.io/v2/5cc8098e300000a300055eab
+Crops: GET http://www.mocky.io/v2/5cc8098e300000a300055eab?mocky-delay=3000ms
 
